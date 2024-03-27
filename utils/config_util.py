@@ -34,3 +34,10 @@ def get_rag_config():
     conf = client.get_config(data_id, group)
     conf = yaml.safe_load(conf)
     return conf["openai"], conf["milvus"]
+
+
+def get_redis_config():
+    data_id = "quant-common-redis.yml"
+    conf = client.get_config(data_id, group)
+    conf = yaml.safe_load(conf)
+    return conf

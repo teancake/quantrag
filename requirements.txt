@@ -1,0 +1,12 @@
+loguru
+nacos-sdk-python
+sqlalchemy
+starrocks
+pymilvus
+langchain_community
+langchain
+langchain_openai
+vllm
+langgraph
+langchainhub
+redis
